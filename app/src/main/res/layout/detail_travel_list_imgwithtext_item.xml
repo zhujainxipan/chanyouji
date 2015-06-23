@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#F5F5F5"
+              android:padding="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/plan_scenery_travel"
+            />
+
+        <TextView
+            android:id="@+id/detail_travel_list_imgwithtext_item_port"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/detail_travel_list_imgwithtext_item_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/test"
+        android:scaleType="centerCrop"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/detail_travel_list_imgwithtext_item_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nihaoya"
+        android:textColor="#000"
+        android:paddingTop="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/poi_b"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/detail_travel_list_imgwithtext_item_loc"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textColor="#AAAAAA"
+            android:gravity="center_vertical"
+            />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/like_a"
+            android:background="#E9E9E9"
+            />
+
+        <TextView
+            android:id="@+id/detail_travel_list_imgwithtext_item_like_count"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:text="7"
+            android:textColor="#000"
+            android:background="#E9E9E9"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/comment_b"
+            android:layout_marginLeft="10dp"
+            android:background="#E9E9E9"
+            />
+
+        <TextView
+            android:id="@+id/detail_travel_list_imgwithtext_item_comm_count"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:text="7"
+            android:textColor="#000"
+            android:background="#E9E9E9"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D7D7D7"
+        />
+</LinearLayout>

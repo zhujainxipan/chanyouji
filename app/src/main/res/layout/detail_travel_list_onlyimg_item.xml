@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#F5F5F5"
+              android:padding="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/detail_travel_list_onlyimg_item_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/test"
+        android:scaleType="centerCrop"
+        android:paddingTop="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/like_a"
+            android:background="#E9E9E9"
+            />
+
+        <TextView
+            android:id="@+id/detail_travel_list_onlyimg_item_like_count"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:text="7"
+            android:textColor="#000"
+            android:background="#E9E9E9"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/comment_b"
+            android:layout_marginLeft="10dp"
+            android:background="#E9E9E9"
+            />
+
+        <TextView
+            android:id="@+id/detail_travel_list_onlyimg_item_comm_count"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:text="7"
+            android:textColor="#000"
+            android:background="#E9E9E9"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D7D7D7"
+        />
+</LinearLayout>

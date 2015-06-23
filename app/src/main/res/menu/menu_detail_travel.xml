@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".DetailTravelActivity">
+
+      <item
+          android:title="下载"
+          android:icon="@mipmap/offline_b"
+          android:showAsAction="always" />
+
+      <item
+          android:title="收藏"
+          android:icon="@mipmap/collection_b"
+          android:showAsAction="always" />
+
+      <item
+            android:title="分享"
+            android:icon="@mipmap/share_a_normal"
+            android:showAsAction="always" />
+
+      <item
+            android:title="评论"
+            android:icon="@mipmap/comment_c"
+            android:showAsAction="always" />
+
+</menu>

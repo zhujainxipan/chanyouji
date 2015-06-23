@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/fragment_travel_listview_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/test"
+            android:scaleType="centerCrop"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            >
+            <TextView
+                android:id="@+id/fragment_travel_listview_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:singleLine="true"
+                />
+
+            <TextView
+                android:id="@+id/fragment_travel_listview_starttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:layout_below="@id/fragment_travel_listview_name"
+                android:paddingTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/fragment_travel_listview_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:layout_below="@id/fragment_travel_listview_name"
+                android:layout_toRightOf="@id/fragment_travel_listview_starttime"
+                android:paddingTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/fragment_travel_listview_imagecount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:layout_below="@id/fragment_travel_listview_name"
+                android:layout_toRightOf="@id/fragment_travel_listview_days"
+                android:paddingTop="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/fragment_travel_listview_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/thumbnail_a_default"
+                android:layout_alignParentBottom="true"
+                />
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+
+    </android.support.v7.widget.CardView>

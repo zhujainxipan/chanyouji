@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:orientation="vertical"
+              android:background="#F5F5F5"
+              android:paddingBottom="20dp"
+              android:paddingTop="20dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE END"
+        android:textColor="#009BE1"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POWERED BY 蝉游记"
+        android:textColor="#92AABE"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        />
+
+
+</LinearLayout>
